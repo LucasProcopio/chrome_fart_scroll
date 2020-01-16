@@ -73,11 +73,20 @@
     const rand = Math.floor(Math.random() * nastyFart.sound.length);
 
     nastyPlayer.src = nastyFart.prefix + nastyFart.sound[rand];
-    nastyPlayer.play();
+    
+    async function forceNastyFartOut() {
+      try {
+        await nastyPlayer.play();
+      } catch(err) {
+        console.log("Constipated ;(")
+      }
+    }
+    
+    forceNastyFartOut();
   }
 
   return function (fartAt) {
-    fartAt = fartAt || 380;
+    fartAt = fartAt || 425;
     let lastFartOffset;
 
     function fartWithStregth() {
