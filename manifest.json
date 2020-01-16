@@ -1,0 +1,25 @@
+{
+"manifest_version": 2,
+
+"name": "Ops I farted again",
+"description": "For people who desire nasty fart sounds",
+"version": "1.0",
+
+"author": "Lucas H. Procopio",
+
+"browser_action": {
+ "default_icon": "icon.png",
+ "default_popup": "popup.html"
+},
+
+"content_scripts": [
+  { "run_at" :"document_idle",
+  "matches": ["http://*/*", "https://*/*"],
+  "js": ["nastyFart.js"]
+   }
+  ],
+
+"permissions": [
+ "activeTab"
+ ]
+}
