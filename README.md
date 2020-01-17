@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to super_crhome_fart 👋</h1>
+<h1 align="center">Welcome to chrome_fart_scroll 👋</h1>
 <p>
   <a href="https://twitter.com/LucasHProcopio" target="_blank">
     <img alt="Twitter: LucasHProcopio" src="https://img.shields.io/twitter/follow/LucasHProcopio.svg?style=social" />
